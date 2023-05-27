@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+
+*{
+    background-color: #000000;
+}
+       /* header */
+.main-bar{
+    height: 100px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1{
+    display: inline-block;
+    height: 51px;
+    width: 333px;
+    padding-top: 10px;
+    left: 20px;
+    top: 30px;
+    font-family:'Ruda';
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #ffffff;
+}
+.container2{
+    display: inline-block;
+}
+a{
+    height: 28px;
+    width: 159px;
+    text-decoration: none;
+    font-family: 'Ruda';
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.container3{
+    display: inline-block;
+    margin-right: 50px;
+}
+.insta-icon{
+    height: 42px;
+    width: 62px;
+    left: 1526.43798828125px;
+    top: 80.09765625px;
+}
+.fb-icon{
+    height: 44px;
+    width: 52px;
+    left: 1547.01904296875px;
+    top: 37px;
+}
+.whatsapp-icon{
+    height: 45px;
+    width: 47px;
+    left: 1625.01904296875px;
+    top: 33px;
+}
+
+                 /*main content*/
+.main-content{
+    height: 850px;
+    width: 1330px;
+    text-align: center;
+}
+.text1{
+    position: absolute;
+    width: 800px;
+    height: 18px;
+    left: 15px;
+    top: 200px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 540;
+    font-size: 80px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    background: transparent;
+}
+.pizzaimg{
+    height: 850px;
+    width: 1320px;
+    opacity: 0.6;
+}
+.emptybox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 500px;
+    height: 11px;
+    left: 150px;
+    top: 420px;
+    background: #F24C4C;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+.description{
+    position: absolute;
+    width: 500px;
+    height: 325px;
+    left: 150px;
+    top: 470px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+/* About Us */
+.aboutus{
+    position: absolute;
+    width: 526px;
+    height: 58px;
+    left: 570px;
+    top: 1000px;
+    font-family: 'Quattrocento';
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.emptybox1{
+    position: absolute;
+    width: 380px;
+    height: 8px;
+    left: 475px;
+    top: 1060px;
+    background: #B62828;
+}
+.aboutus-text{
+    position: absolute;
+    width: 550px;
+    height: 370px;
+    left: 100px;
+    top: 1150px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.emptybox2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 535px;
+    height: 4px;
+    left: 100px;
+    top: 1150px;
+    background: #F24C4C;
+    box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+}
+.doughimg{
+    position: absolute;
+    width: 500px;
+    height: 450px;
+    left: 750px;
+    top: 1150px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 74.48%, rgba(0, 0, 0, 0.8) 100%), url();
+    border-radius: 10px;
+}
+  
+  /*Menu */
+.menubox{
+    position: absolute;
+    width: 474px;
+    height: 52px;
+    left: 600px;
+    top: 1700px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.emptybox3{
+    position: absolute;
+    width: 380px;
+    height: 8px;
+    left: 470px;
+    top: 1750px;
+    background: #B62828;
+}
+.menu-text{
+    position: absolute;
+    width: 1180px;
+    height: 378px;
+    left: 100px;
+    top: 1780px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.menuitem1, .menuitem2, .menuitem3, .menuitem4, .menuitem5, .menuitem6{
+    width: 274px;
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+}
+.menu1heading, .menu2heading, .menu3heading, .menu4heading, .menu5heading, .menu6heading{
+    position: absolute;
+    width: 348px;
+    height: 51px;
+    font-family: 'Ruda';
+    font-weight: 400;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    color: #F2C94C;
+}
+.menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.menuitem1{
+    left: 100px;
+    top: 1920px;
+}
+.menu1heading{
+    left: 390px;
+    top: 1890px;
+}
+.menu1{
+    left: 390px;
+    top: 1945px;
+}
+.menuitem2{
+    left: 700px;
+    top: 1920px;
+}
+.menu2heading{
+    left: 990px;
+    top: 1890px;
+}
+.menu2{
+    left: 990px;
+    top: 1945px;
+}
+.menuitem3{
+    left: 100px;
+    top: 2150px;
+}
+.menu3heading{
+    left: 390px;
+    top: 2125px;
+}
+.menu3{
+    left: 390px;
+    top: 2180px;
+}
+.menuitem4{
+    left: 700px;
+    top: 2149px;
+}
+.menu4heading{
+    left: 990px;
+    top: 2125px;
+}
+.menu4{
+    left: 990px;
+    top: 2180px;
+}
+.menuitem5{
+    left: 100px;
+    top: 2385px;
+}
+.menu5heading{
+    left: 390px;
+    top: 2360px;
+}
+.menu5{
+    left: 390px;
+    top: 2415px;
+}
+.menuitem6{
+    left: 700px;
+    top: 2385px;
+}
+.menu6heading{
+    left: 990px;
+    top: 2360px;
+}
+.menu6{
+    left: 990px;
+    top: 2415px;
+}
+
+/*find us */
+.findusbox{
+    position: absolute;
+    width: 474px;
+    height: 52px;
+    left: 600px;
+    top: 2650px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.emptybox4{
+    position: absolute;
+    width: 380px;
+    height: 8px;
+    left: 480px;
+    top: 2705px;
+    background: #B62828;
+}
+.findus-text{
+    position: absolute;
+    width: 530px;
+    height: 200px;
+    left: 100px;
+    top: 2735px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+
+.locationicon{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 100px;
+    top: 1910px;
+}
+
+.location{
+    position: absolute;
+    width: 450px;
+    height: 43px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    left: 150px;
+    top: 2860px;
+}
+.phoneicon{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 100px;
+    top: 1930px;
+}
+.phnum1, .phnum2, .phnum3, .phnum4{
+    position: absolute;
+    width: 487px;
+    height: 42px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+}
+.phnum1{
+    left: 155px;
+    top: 2900px;
+}
+.phnum2{
+    left: 155px;
+    top: 2930px;
+}
+.map{
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    left: 730px;
+    top: 2760px;
+    border-radius: 10px;
+}
+
+/* footer */
+.whiteimg{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    top: 3300px;
+}
+.mailicon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 800px;
+    top: 3320px;
+}
+.mailid{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 850px;
+    top: 3310px;
+    color: white;
+}
+.phoneicon1{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 790px;
+    top: 2350px;
+}
+.phnum3{
+    left: 850px;
+    top: 3360px;
+}
+.phnum4{
+    left: 850px;
+    top: 3380px;
+}
+
+/* media queries */
+@media screen and (max-width: 780px){
+    .main-bar{
+        height: 80px;
+        width: 700px;
+    }
+    .container1{
+        height: 38px;
+        width: 220px;
+        padding-top: 7px;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+    }
+    a{
+        height: 22px;
+        width: 50px;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+        margin-right: 5px;
+    }
+    .container3{
+        margin-right: 10px;
+    }
+    .insta-icon{
+        height: 25px;
+        width: 30px;
+    }
+    .fb-icon{
+        height: 25px;
+        width: 30px;
+    }
+    .whatsapp-icon{
+        height: 25px;
+        width: 30px;
+    }
+
+    .main-content{
+        height: 600px;
+        width: 700px;
+    }
+    .text1{
+        width: 400px;
+        height: 13px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 0.05em;
+    }
+    .pizzaimg{
+        height: 600px;
+        width: 700px;
+    }
+    .emptybox{
+        width: 340px;
+        height: 5px;
+        left: 32px;
+        top: 245px;
+    }
+    .description{
+        width: 340px;
+        height: 250px;
+        left: 32px;
+        top: 270px;
+        font-weight: 350;
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 0.05em;
+    }
+
+    .aboutus{
+        width: 250px;
+        height: 40px;
+        left: 280px;
+        top: 700px;
+        font-weight: 170;
+        font-size: 20px;
+    }
+    .emptybox1{
+        width: 230px;
+        height: 4px;
+        left: 215px;
+        top: 740px;
+    }
+    .aboutus-text{
+        width: 330px;
+        height: 220px;
+        left: 30px;
+        top: 770px;
+        font-weight: 170;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.06em;
+    }
+    .emptybox2{
+        width: 250px;
+        height: 2px;
+        left: 30px;
+        top: 768px;
+    }
+    .doughimg{
+        width: 320px;
+        height: 250px;
+        left: 375px;
+        top: 768px;
+    }
+
+    .menubox{
+        width: 250px;
+        height: 40px;
+        left: 310px;
+        top: 1050px;
+        font-weight: 170;
+        font-size: 20px;
+    }
+    .emptybox3{
+        width: 250px;
+        height: 4px;
+        left: 210px;
+        top: 1090px;
+    }
+    .menu-text{
+        width: 650px;
+        height: 250px;
+        left: 30px;
+        top: 1110px;
+        font-weight: 170;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.06em;
+    }
+    .menuitem1, .menuitem2, .menuitem3, .menuitem4, .menuitem5, .menuitem6{
+        width: 150px;
+        height: 120px;
+    }
+    .menu1heading, .menu2heading, .menu3heading, .menu4heading, .menu5heading, .menu6heading{
+        width: 250px;
+        height: 25px;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    .menu1, .menu2, .menu3, .menu4, .menu5, .menu6{
+        width: 170px;
+        height: 80px;
+        font-weight: 80;
+        font-size: 9px;
+        line-height: 17px;
+        letter-spacing: 0.06em;
+    }
+    .menuitem1{
+        left: 30px;
+        top: 1200px;
+    }
+    .menu1heading{
+        left: 190px;
+        top: 1190px;
+    }
+    .menu1{
+        left: 190px;
+        top: 1220px;
+    }
+    .menuitem2{
+        left: 350px;
+        top: 1200px;
+    }
+    .menu2heading{
+        left: 510px;
+        top: 1190px;
+    }
+    .menu2{
+        left: 510px;
+        top: 1220px;
+    }
+    .menuitem3{
+        left: 30px;
+        top: 1330px;
+    }
+    .menu3heading{
+        left: 190px;
+        top: 1330px;
+    }
+    .menu3{
+        left: 190px;
+        top: 1360px;
+    }
+    .menuitem4{
+        left: 350px;
+        top: 1330px;
+    }
+    .menu4heading{
+        left: 510px;
+        top: 1330px;
+    }
+    .menu4{
+        left: 510px;
+        top: 1360px;
+    }
+    .menuitem5{
+        left: 30px;
+        top: 1460px;
+    }
+    .menu5heading{
+        left: 190px;
+        top: 1460px;
+    }
+    .menu5{
+        left: 190px;
+        top: 1490px;
+    }
+    .menuitem6{
+        left: 350px;
+        top: 1460px;
+    }
+    .menu6heading{
+        left: 510px;
+        top: 1460px;
+    }
+    .menu6{
+        left: 510px;
+        top: 1490px;
+    }
+
+    .findusbox{
+        width: 250px;
+        height: 40px;
+        left: 300px;
+        top: 1600px;
+        font-weight: 170;
+        font-size: 20px;
+    }
+    .emptybox4{
+        width: 250px;
+        height: 4px;
+        left: 210px;
+        top: 1635px;
+    }
+    .findus-text{
+        width: 330px;
+        height: 70px;
+        left: 30px;
+        top: 1650px;
+        font-weight: 170;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.06em;
+    }
+    
+    .locationicon{
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 1040px;
+    }
+    
+    .location{
+        width: 230px;
+        height: 20px;
+        font-weight: 200;
+        font-size: 9px;
+        line-height: 10px;
+        letter-spacing: 0.05em;
+        left: 70px;
+        top: 1725px;
+    }
+    .phoneicon{
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 1060px;
+    }
+    .phnum1, .phnum2, .phnum3, .phnum4{
+        width: 320px;
+        height: 27px;
+        font-weight: 170;
+        font-size: 9px;
+        line-height: 10px;
+        letter-spacing: 0.05em;
+    }
+    .phnum1{
+        left: 70px;
+        top: 1760px;
+    }
+    .phnum2{
+        left: 70px;
+        top: 1775px;
+    }
+    .map{
+        width: 320px;
+        height: 250px;
+        left: 375px;
+        top: 1650px;
+    }
+
+    .whiteimg{
+        width: 40px;
+        height: 40px;
+        left: 30px;
+        top: 2000px;
+    }
+    .mailicon{
+        width: 20px;
+        height: 20px;
+        left: 500px;
+        top: 2000px;
+    }
+    .mailid{
+        width: 100px;
+        height: 20px;
+        left: 540px;
+        top: 1985px;
+    }
+    .phoneicon1{
+        width: 20px;
+        height: 20px;
+        left: 495px;
+        top: 1310px;
+    }
+    .phnum3{
+        left: 540px;
+        top: 2030px;
+    }
+    .phnum4{
+        left: 540px;
+        top: 2050px;
+    }
+}
